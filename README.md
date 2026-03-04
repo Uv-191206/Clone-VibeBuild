@@ -27,7 +27,7 @@ The following projects were built during the workshop:
 | **Dev** | [Clone-Dev-Data](https://github.com/Uv-191206/clone-dev-data.git) | *Pending* |
 | **Rohan** | [Clone-Rohan](https://github.com/Uv-191206/clone-rohan_testproj12.git) | [Live Demo](https://clone-rohan-testproj12.vercel.app/) |
 | **Harsh** | [Clone-Harsh](https://github.com/Uv-191206/clone-harsh-supreme-education-website.git) | [Live Demo](https://clone-harsh-supreme-education-websi.vercel.app/) |
-| **Pransu** | [Clone-VeriLearn](https://github.com/Uv-191206/clone-verilearn-pransu.git) | [Live Demo](https://clone-verilearn-pransu.vercel.app/login) |
+| **Pransu** | [Clone-VeriLearn](https://github.com/Uv-191206/clone-verilearn-pransu.git) | [Live Demo](https://clone-verilearn-pransu.vercel.app/) |
 | **Richa** | [Clone-Academic-Hub](https://github.com/Uv-191206/clone-academic_hub-richa.git) | [Live Demo](https://clone-academic-hub-richa.vercel.app/) |
 | **Vraj & Yash** | *N/A* | [Live Demo](https://skillbridge-career-path.lovable.app/dashboard) |
 

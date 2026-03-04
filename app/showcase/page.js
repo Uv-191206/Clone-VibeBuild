@@ -115,7 +115,7 @@ const STATIC_PROJECTS = [
         description: 'A secure education platform that leverages blockchain technology to verify and store academic achievements.',
         techStack: ['React', 'Ethereum', 'Web3.js'],
         githubUrl: 'https://github.com/Uv-191206/clone-verilearn-pransu.git',
-        liveUrl: 'https://clone-verilearn-pransu.vercel.app/login'
+        liveUrl: 'https://clone-verilearn-pransu.vercel.app/'
     },
     {
         _id: '10',
