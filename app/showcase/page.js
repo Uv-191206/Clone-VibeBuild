@@ -8,37 +8,136 @@ const DOMAINS = ['All'];
 
 const STATIC_PROJECTS = [
     {
-        _id: '1',
-        title: 'AI Health Monitor',
-        userName: 'Jeet Patel',
-        domain: 'Healthcare AI',
-        problemStatement: 'Early detection of anomalies in wearable data',
-        description: 'A machine learning system that analyzes continuous vitals from smartwatch sensors to predict and alert users of potential health anomalies before they become critical.',
-        techStack: ['Python', 'TensorFlow', 'Next.js'],
-        githubUrl: 'https://github.com/Uv-191206',
+        _id: 'vb',
+        title: 'VibeBuild Platform',
+        userName: 'Admin Team',
+        domain: 'Workshop Platform',
+        problemStatement: 'Centralized hub for AI workshops and project showcases',
+        description: 'A comprehensive platform for managing AI-driven workshops, featuring project submissions, automated certificate generation, and an AI-powered helper bot.',
+        techStack: ['Next.js 16', 'React 19', 'Tailwind CSS', 'Framer Motion'],
+        githubUrl: 'https://github.com/Uv-191206/project-x-VibeBuild.git',
         liveUrl: 'https://project-x-vibe-build.vercel.app/'
+    },
+    {
+        _id: '1',
+        title: 'Digital Bridge Project',
+        userName: 'Yogi Patel',
+        domain: 'Cloud Services',
+        problemStatement: 'Simplifying digital infrastructure for modern businesses',
+        description: 'A robust cloud service platform designed to bridge the gap between traditional infrastructure and modern digital solutions.',
+        techStack: ['React', 'Vite', 'Tailwind CSS'],
+        githubUrl: 'https://github.com/Uv-191206/clone-yogi-1-digital-bridge-project.git',
+        liveUrl: 'https://clone-yogi-1-digital-bridge-project.vercel.app/'
     },
     {
         _id: '2',
-        title: 'Smart Crop Yield Predictor',
-        userName: 'Yuvrajsinh Rathod',
-        domain: 'Agriculture AI',
-        problemStatement: 'Optimizing crop yield based on micro-climate data',
-        description: 'Utilizes historical weather data, soil sensors, and satellite imagery to predict crop yields and recommend precise fertilizer applications.',
-        techStack: ['React', 'FastAPI', 'PyTorch'],
-        githubUrl: 'https://github.com/Uv-191206',
-        liveUrl: 'https://project-x-vibe-build.vercel.app/'
+        title: 'Creative Agency Portal',
+        userName: 'Smeet',
+        domain: 'Portfolio',
+        problemStatement: 'Showcasing high-end digital agency work with premium aesthetics',
+        description: 'A high-performance portfolio site for creative agencies, focusing on smooth animations and visual excellence.',
+        techStack: ['Next.js', 'Framer Motion', 'Tailwind CSS'],
+        githubUrl: 'https://github.com/Uv-191206/clone-smeet-project.git',
+        liveUrl: 'https://clone-smeet-project.vercel.app/'
     },
     {
         _id: '3',
-        title: 'Urban Traffic Optimizer',
-        userName: 'Alice Smith',
-        domain: 'Smart Cities',
-        problemStatement: 'Reducing congestion through intelligent light timing',
-        description: 'Analyzes real-time traffic camera feeds to dynamically adjust traffic light timings, reducing average commute times by 15%.',
-        techStack: ['OpenCV', 'Node.js', 'MongoDB'],
-        githubUrl: 'https://github.com/Uv-191206',
-        liveUrl: 'https://project-x-vibe-build.vercel.app/'
+        title: 'Health-Tech Dashboard',
+        userName: 'Prashant',
+        domain: 'Healthcare',
+        problemStatement: 'Modernizing patient data management with intuitive UI',
+        description: 'An advanced healthcare dashboard for tracking patient metrics and streamlining clinical workflows.',
+        techStack: ['React', 'Node.js', 'PostgreSQL'],
+        githubUrl: 'https://github.com/Uv-191206/clone-prashant-project.git',
+        liveUrl: 'https://clone-prashant-project.vercel.app/'
+    },
+    {
+        _id: '4',
+        title: 'E-Commerce Innovation',
+        userName: 'Hitansh',
+        domain: 'E-Commerce',
+        problemStatement: 'Optimizing checkout flows for higher conversion rates',
+        description: 'A next-generation e-commerce platform featuring seamless product discovery and ultra-fast checkout.',
+        techStack: ['Remix', 'Shopify API', 'Tailwind CSS'],
+        githubUrl: 'https://github.com/Uv-191206/clone-hitansh-project.git',
+        liveUrl: 'https://clone-hitansh-project.vercel.app/'
+    },
+    {
+        _id: '5',
+        title: 'BharatAgri-AI',
+        userName: 'Yuvraj & Jeet',
+        domain: 'Agriculture AI',
+        problemStatement: 'Empowering farmers with AI-driven crop insights',
+        description: 'Smart agriculture platform using AI to predict soil health and optimize crop yields for sustainable farming.',
+        techStack: ['Python', 'FastAPI', 'Next.js', 'TensorFlow'],
+        githubUrl: 'https://github.com/jeetptl1503/BharatAgri-AI.git',
+        liveUrl: 'https://bharatagri-ai.vercel.app/'
+    },
+    {
+        _id: '6',
+        title: 'Data-Driven Insights',
+        userName: 'Dev',
+        domain: 'Data Analytics',
+        problemStatement: 'Visualizing complex data sets for better decision making',
+        description: 'A comprehensive data analytics suite providing real-time insights and beautiful visualizations for complex business metrics.',
+        techStack: ['React', 'D3.js', 'Supabase'],
+        githubUrl: 'https://github.com/Uv-191206/clone-dev-data.git',
+        liveUrl: '' // Currently facing errors
+    },
+    {
+        _id: '7',
+        title: 'Modern Workspaces',
+        userName: 'Rohan',
+        domain: 'SaaS',
+        problemStatement: 'Improving remote team productivity via unified tools',
+        description: 'A collaborative workspace application designed for the modern remote workforce, integrating chat, tasks, and files.',
+        techStack: ['Next.js', 'Socket.io', 'MongoDB'],
+        githubUrl: 'https://github.com/Uv-191206/clone-rohan_testproj12.git',
+        liveUrl: 'https://clone-rohan-testproj12.vercel.app/'
+    },
+    {
+        _id: '8',
+        title: 'Supreme Education',
+        userName: 'Harsh',
+        domain: 'Ed-Tech',
+        problemStatement: 'Expanding access to premium educational resources',
+        description: 'An interactive learning platform providing high-quality educational content and tracking student progress.',
+        techStack: ['Vue.js', 'Firebase', 'Tailwind CSS'],
+        githubUrl: 'https://github.com/Uv-191206/clone-harsh-supreme-education-website.git',
+        liveUrl: 'https://clone-harsh-supreme-education-websi.vercel.app/'
+    },
+    {
+        _id: '9',
+        title: 'VeriLearn Platform',
+        userName: 'Pransu',
+        domain: 'Ed-Tech',
+        problemStatement: 'Verifying student credentials on the blockchain',
+        description: 'A secure education platform that leverages blockchain technology to verify and store academic achievements.',
+        techStack: ['React', 'Ethereum', 'Web3.js'],
+        githubUrl: 'https://github.com/Uv-191206/clone-verilearn-pransu.git',
+        liveUrl: 'https://clone-verilearn-pransu.vercel.app/login'
+    },
+    {
+        _id: '10',
+        title: 'Academic Hub',
+        userName: 'Richa',
+        domain: 'Education',
+        problemStatement: 'Centralizing research papers and academic collaborations',
+        description: 'A collaborative platform for students and researchers to share knowledge and work on academic projects.',
+        techStack: ['Angular', 'Node.js', 'Express'],
+        githubUrl: 'https://github.com/Uv-191206/clone-academic_hub-richa.git',
+        liveUrl: 'https://clone-academic-hub-richa.vercel.app/'
+    },
+    {
+        _id: '11',
+        title: 'SkillBridge Career Path',
+        userName: 'Vraj & Yash',
+        domain: 'Career Tech',
+        problemStatement: 'Bridging the skill gap for fresh graduates',
+        description: 'An AI-powered career counselor that identifies skill gaps and recommends personalized learning paths.',
+        techStack: ['Lovable AI', 'Supabase', 'React'],
+        githubUrl: '',
+        liveUrl: 'https://skillbridge-career-path.lovable.app/dashboard'
     }
 ];
 

@@ -6,7 +6,7 @@ import Link from 'next/link';
 import { Rocket, Code2, Brain, Users, Trophy, ArrowRight, Sparkles, Zap, Globe } from 'lucide-react';
 
 export default function HomePage() {
-  const [stats, setStats] = useState({ totalProjects: 15 });
+  const [stats, setStats] = useState({ totalProjects: 12, totalLOC: 28450 });
 
   useEffect(() => {
     // Static stat simulation if needed
@@ -115,6 +115,7 @@ export default function HomePage() {
           <p className="section-subtitle" style={{ textAlign: 'center' }}>Real-time metrics from the workshop</p>
           <div style={{ display: 'flex', gap: '1.5rem', flexWrap: 'wrap', justifyContent: 'center' }}>
             <AnimatedCounter end={stats.totalProjects} label="Projects Submitted" icon="🚀" />
+            <AnimatedCounter end={stats.totalLOC} label="Lines of Code Written" icon="💻" />
           </div>
         </section>
       </ScrollReveal>
